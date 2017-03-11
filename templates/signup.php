@@ -22,7 +22,7 @@
     jQuery('input[name="sml_email"]').hide();
   }
   else{
-    jQuery('input[name="submit"]').addClass('btn btn-danger');
+    jQuery('input[name="submit"]').addClass('btn btn-danger btn-block');
     jQuery('input[name="sml_email"]').addClass('input form-control');
   }
 </script>
