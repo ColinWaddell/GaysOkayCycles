@@ -17,10 +17,12 @@
 </div>
 
 <script>
-  jQuery('input[name="submit"]').addClass('btn btn-warning');
-  jQuery('input[name="sml_email"]').addClass('input form-control');
   if (jQuery('.sml_thankyou').length){
     jQuery('input[name="submit"]').hide();
     jQuery('input[name="sml_email"]').hide();
+  }
+  else{
+    jQuery('input[name="submit"]').addClass('btn btn-danger');
+    jQuery('input[name="sml_email"]').addClass('input form-control');
   }
 </script>
