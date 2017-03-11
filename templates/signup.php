@@ -5,11 +5,11 @@
       'prepend' => '', 
       'showname' => false,
       'emailtxt' => '',
-      'emailholder' => 'Email Address...', 
+      'emailholder' => 'EMAIL ADDRESS...', 
       'showsubmit' => true, 
-      'submittxt' => 'Find Out More', 
+      'submittxt' => 'FIND OUT MORE', 
       'jsthanks' => false,
-      'thankyou' => "Thanks, we'll email you when preorders are open"
+      'thankyou' => "THANKS, WE'LL EMAIL YOU WHEN PREORDERS ARE OPEN"
       );
       echo smlsubform($args);
     ?>
